@@ -1,0 +1,58 @@
+body {
+  background: rgb(220,220,220);
+  color: orange ;
+  margin: 0px;
+  font-size: 25px;
+  font-family: times ;
+}
+
+h1 {
+  font-family: Arial;
+  color: black;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+h3 {
+  font-family: Ariel;
+  color: pink;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner h1 {
+	text-align: center;
+	background-image: url("https://unsplash.it/1300/600?random")
+	}
+
+#banner p { 
+	opacity: 0,8;
+	front-size : 30;
+	front-weight: lighter;
+
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
+
